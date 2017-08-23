@@ -1,4 +1,4 @@
-# Route.py
+# Class Route
 # coding: utf-8
 import logging
 import datetime
@@ -9,33 +9,35 @@ import re
  
 class Route:
     """Routeクラス"""
-
-    default_actions = ['index', 'show', 'create', 'edit', 'save', 'delete']
-
     def __init__(self):
+        self.default_actions = ['index', 'show', 'create', 'edit', 'save', 'delete']
+        self.routes = []
+
         handler = logging.StreamHandler()
         handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
-        logger = logging.getLogger()
-        logger.addHandler(handler)
-        logger.setLevel(logging.INFO)
-        logger.info('test-log-dayo')
+        self.logger = logging.getLogger()
+        self.logger.addHandler(handler)
+        self.logger.setLevel(logging.INFO)
+        self.logger.info('test-log-dayo')
 
-    def setRoute(url, controller, action):
-        self.routes.apend({'url':url, 'controller':controller, 'action':action})
+    def setRoute(self, url, controller, action):
 
-    def findRoute(url):
+        self.routes.append({'url':url, 'controller':controller, 'action':action})
+
+    def findRoute(self, url):
         for route in self.routes:
             if re.match(route['url'], url):
                 return route
 
-    def getDefaultRoute(controllers_path):
+    def getDefaultRoute(self, controllers_path):
         files = os.listdir(controllers_path)
 
         for file in files:
-            logger.info('files:' + files)
-            if (is_dir(file)):
+            self.logger.info('files:' + str(files))
+            if (os.path.isdir(file)):
                 self.getDefaultRoute(controllers_path + file + '/')
 
             controller = file.replace('Controller.py', '/')
             for default_action in self.default_actions:
-                self.routes.apend({'url':url, 'controller':controller, 'action':default_action})
+                url = '/sdada/asdas'
+                self.routes.append({'url':url, 'controller':controller, 'action':default_action})

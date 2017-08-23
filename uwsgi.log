@@ -3805,3 +3805,1107 @@ Traceback (most recent call last):
     r = Route()
 NameError: name 'Route' is not defined
 [pid: 37468|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:22:46 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 3 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:39:14 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fca6f818400
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "index.py", line 19, in <module>
+    import libs.core.Route
+  File "./libs/core/Route.py", line 31
+    def getDefaultRoute(self. controllers_path):
+                            ^
+SyntaxError: invalid syntax
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37671)
+spawned uWSGI worker 1 (pid: 37672, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:39:35 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fde96001000
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fde96001000 pid: 37679 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37679)
+spawned uWSGI worker 1 (pid: 37680, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:39:43,273 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:39:43,274 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:39:43,275 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:39:43,276 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37680|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:39:43 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 6 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:45:24 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8c65000a00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8c65000a00 pid: 37744 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37744)
+spawned uWSGI worker 1 (pid: 37745, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:45:31,110 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:45:31,111 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:45:31,123 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:45:31,123 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37745|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:45:31 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 15 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:49:31 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb01c01b600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb01c01b600 pid: 37795 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37795)
+spawned uWSGI worker 1 (pid: 37796, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:49:41,955 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:49:41,956 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:49:41,956 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:49:41,956 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route
+NameError: name 'Route' is not defined
+[pid: 37796|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:49:41 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 3 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:49:59 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb80a019400
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb80a019400 pid: 37807 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37807)
+spawned uWSGI worker 1 (pid: 37808, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:50:03,345 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:50:03,346 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:50:03,347 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:50:03,348 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37808|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:50:03 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 5 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:51:50 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc74f825e00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "index.py", line 19, in <module>
+    import libs.core.route
+ModuleNotFoundError: No module named 'libs.core.route'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37835)
+spawned uWSGI worker 1 (pid: 37836, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+--- no python application found, check your startup logs for errors ---
+[pid: 37836|app: -1|req: -1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:51:54 2017] GET /sdada?sdada=sadasd => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 37836|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:52:37 2017] GET /sdada?sdada=sadasd => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:53:22 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa8ea02ac00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fa8ea02ac00 pid: 37861 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37861)
+spawned uWSGI worker 1 (pid: 37862, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:53:26,140 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:53:26,142 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:53:26,143 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:53:26,144 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37862|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:53:26 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 6 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:54:25 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fdda6002600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fdda6002600 pid: 37882 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37882)
+spawned uWSGI worker 1 (pid: 37883, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:54:29,677 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:54:29,678 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:54:29,678 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:54:29,678 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = RouteClass()
+NameError: name 'RouteClass' is not defined
+[pid: 37883|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:54:29 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 3 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:54:46 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe098818400
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fe098818400 pid: 37894 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37894)
+spawned uWSGI worker 1 (pid: 37895, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:54:57,865 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:54:57,867 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:54:57,868 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:54:57,868 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37895|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:54:57 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 5 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 21:58:35 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8b7703f600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f8b7703f600 pid: 37940 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37940)
+spawned uWSGI worker 1 (pid: 37941, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 21:58:41,994 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 21:58:41,995 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 21:58:41,996 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 21:58:41,997 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37941|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 21:58:41 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 5 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:01:46 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa22083d800
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fa22083d800 pid: 37979 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37979)
+spawned uWSGI worker 1 (pid: 37980, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:01:49,982 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:01:49,984 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:01:49,985 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:01:49,985 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37980|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:01:49 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 5 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:02:02 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9b1e01b200
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9b1e01b200 pid: 37988 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 37988)
+spawned uWSGI worker 1 (pid: 37989, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:02:11,532 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:02:11,532 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:02:11,533 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:02:11,533 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+NameError: name 'Route' is not defined
+[pid: 37989|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:02:11 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 3 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:09:04 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcb95806200
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcb95806200 pid: 38258 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38258)
+spawned uWSGI worker 1 (pid: 38259, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:09:09,239 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:09:09,241 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:09:09,241 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:09:09,242 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:09:09,242 - root - INFO - test-log-dayo
+2017-08-23 22:09:09,242 - root - INFO - test-log-dayo
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 34, in getDefaultRoute
+    logger.info('files:' + files)
+NameError: name 'logger' is not defined
+[pid: 38259|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:09:09 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 8 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:14:48 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcc1c83d200
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcc1c83d200 pid: 38320 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38320)
+spawned uWSGI worker 1 (pid: 38321, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:14:52,298 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:14:52,300 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:14:52,300 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:14:52,301 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:14:52,302 - root - INFO - test-log-dayo
+2017-08-23 22:14:52,302 - root - INFO - test-log-dayo
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 34, in getDefaultRoute
+    self.logger.info('files:' + files)
+TypeError: must be str, not list
+[pid: 38321|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:14:52 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 6 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+2017-08-23 22:14:58,080 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:14:58,080 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:14:58,081 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:14:58,081 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:14:58,081 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:14:58,081 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:14:58,082 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:14:58,082 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:14:58,082 - root - INFO - test-log-dayo
+2017-08-23 22:14:58,082 - root - INFO - test-log-dayo
+2017-08-23 22:14:58,082 - root - INFO - test-log-dayo
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 34, in getDefaultRoute
+    self.logger.info('files:' + files)
+TypeError: must be str, not list
+[pid: 38321|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:14:58 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 3 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:16:41 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa8da81b000
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fa8da81b000 pid: 38351 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38351)
+spawned uWSGI worker 1 (pid: 38352, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:16:44,382 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:16:44,384 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:16:44,385 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:16:44,386 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:16:44,386 - root - INFO - test-log-dayo
+2017-08-23 22:16:44,386 - root - INFO - test-log-dayo
+2017-08-23 22:16:44,387 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:16:44,387 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 35, in getDefaultRoute
+    if (is_dir(file)):
+NameError: name 'is_dir' is not defined
+[pid: 38352|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:16:44 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 7 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:18:51 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb863800a00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb863800a00 pid: 38382 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38382)
+spawned uWSGI worker 1 (pid: 38383, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:18:55,540 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:18:55,541 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:18:55,542 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:18:55,542 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:18:55,542 - root - INFO - test-log-dayo
+2017-08-23 22:18:55,542 - root - INFO - test-log-dayo
+2017-08-23 22:18:55,543 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:18:55,543 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 40, in getDefaultRoute
+    self.routes.apend({'url':url, 'controller':controller, 'action':default_action})
+AttributeError: 'Route' object has no attribute 'routes'
+[pid: 38383|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:18:55 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 7 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:19:42 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7feedc800a00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7feedc800a00 pid: 38399 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38399)
+spawned uWSGI worker 1 (pid: 38400, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:19:45,219 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:19:45,220 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:19:45,221 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:19:45,221 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:19:45,222 - root - INFO - test-log-dayo
+2017-08-23 22:19:45,222 - root - INFO - test-log-dayo
+2017-08-23 22:19:45,223 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:19:45,223 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 41, in getDefaultRoute
+    self.routes.apend({'url':url, 'controller':controller, 'action':default_action})
+AttributeError: 'dict' object has no attribute 'apend'
+[pid: 38400|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:19:45 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 6 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:20:17 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa21583fe00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa21583fe00 pid: 38413 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38413)
+spawned uWSGI worker 1 (pid: 38414, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:20:21,810 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:20:21,812 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:20:21,813 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:20:21,814 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:20:21,815 - root - INFO - test-log-dayo
+2017-08-23 22:20:21,815 - root - INFO - test-log-dayo
+2017-08-23 22:20:21,816 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:20:21,816 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 42, in getDefaultRoute
+    self.routes.apend({'url':url, 'controller':controller, 'action':default_action})
+AttributeError: 'dict' object has no attribute 'apend'
+[pid: 38414|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:20:21 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 8 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:21:05 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8429004600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f8429004600 pid: 38428 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38428)
+spawned uWSGI worker 1 (pid: 38429, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:21:08,026 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:21:08,028 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:21:08,028 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:21:08,029 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:21:08,030 - root - INFO - test-log-dayo
+2017-08-23 22:21:08,030 - root - INFO - test-log-dayo
+2017-08-23 22:21:08,030 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:21:08,030 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 42, in getDefaultRoute
+    self.routes.apend({'url':url, 'controller':controller, 'action':default_action})
+AttributeError: 'dict' object has no attribute 'apend'
+[pid: 38429|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:21:08 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 7 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:21:32 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcaee002600
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fcaee002600 pid: 38443 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38443)
+spawned uWSGI worker 1 (pid: 38444, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:21:33,749 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:21:33,751 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:21:33,752 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:21:33,752 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:21:33,753 - root - INFO - test-log-dayo
+2017-08-23 22:21:33,753 - root - INFO - test-log-dayo
+2017-08-23 22:21:33,754 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:21:33,754 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 42, in getDefaultRoute
+    self.routes.append({'url':url, 'controller':controller, 'action':default_action})
+AttributeError: 'dict' object has no attribute 'append'
+[pid: 38444|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:21:33 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 8 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:23:21 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd85f801000
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fd85f801000 pid: 38471 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38471)
+spawned uWSGI worker 1 (pid: 38472, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:23:24,660 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:23:24,661 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:23:24,662 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:23:24,662 - root - INFO - url:/sdada?sdada=sadasd
+Traceback (most recent call last):
+  File "index.py", line 37, in application
+    r = Route()
+  File "./libs/core/Route.py", line 14, in __init__
+    self.routes = null
+NameError: name 'null' is not defined
+[pid: 38472|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:23:24 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 4 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:25:33 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb12b018400
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb12b018400 pid: 38506 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38506)
+spawned uWSGI worker 1 (pid: 38507, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:25:37,177 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:25:37,180 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:25:37,181 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:25:37,181 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:25:37,182 - root - INFO - test-log-dayo
+2017-08-23 22:25:37,182 - root - INFO - test-log-dayo
+2017-08-23 22:25:37,183 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:25:37,183 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 38, in application
+    r.getDefaultRoute(project_root + '/app/controllers/')
+  File "./libs/core/Route.py", line 42, in getDefaultRoute
+    self.routes.append({'url':url, 'controller':controller, 'action':default_action})
+NameError: name 'url' is not defined
+[pid: 38507|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:25:37 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 10 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:26:42 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9c23818000
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9c23818000 pid: 38525 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38525)
+spawned uWSGI worker 1 (pid: 38526, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:26:47,580 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:26:47,581 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:26:47,582 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:26:47,582 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:26:47,583 - root - INFO - test-log-dayo
+2017-08-23 22:26:47,583 - root - INFO - test-log-dayo
+2017-08-23 22:26:47,583 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:26:47,583 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 40, in application
+    logger.info("controller[" + route['controller'] + "] action[" + route['action'] + "]")
+TypeError: 'NoneType' object is not subscriptable
+[pid: 38526|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:26:47 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 5 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:30:20 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f827f000a00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f827f000a00 pid: 38569 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38569)
+spawned uWSGI worker 1 (pid: 38570, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:30:25,056 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:30:25,057 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:30:25,058 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:30:25,058 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:30:25,059 - root - INFO - test-log-dayo
+2017-08-23 22:30:25,059 - root - INFO - test-log-dayo
+2017-08-23 22:30:25,060 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:30:25,060 - root - INFO - files:['DefaultController.py']
+Traceback (most recent call last):
+  File "index.py", line 41, in application
+    logger.info("route[" + str(route) + "]")
+UnboundLocalError: local variable 'str' referenced before assignment
+[pid: 38570|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:30:25 2017] GET /sdada?sdada=sadasd => generated 0 bytes in 6 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 23 22:31:38 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 11 August 2017 01:16:09
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: satoukentadashi-no-MacBook-Air.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/satokadumasa/Project/strangerpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3031 fd 3
+Python version: 3.6.2 (default, Aug 11 2017, 01:00:39)  [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa864001a00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145504 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fa864001a00 pid: 38589 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38589)
+spawned uWSGI worker 1 (pid: 38590, cores: 1)
+*** Stats server enabled on 127.0.0.1:9191 fd: 9 ***
+2017-08-23 22:31:40,197 - root - INFO - sys versionsys.version_info(major=3, minor=6, micro=2, releaselevel='final', serial=0)
+2017-08-23 22:31:40,198 - root - INFO - project_root:/Users/satokadumasa/Project/strangerpy
+2017-08-23 22:31:40,200 - root - INFO - print_char:sdada:sadasd<br>
+2017-08-23 22:31:40,200 - root - INFO - url:/sdada?sdada=sadasd
+2017-08-23 22:31:40,201 - root - INFO - test-log-dayo
+2017-08-23 22:31:40,201 - root - INFO - test-log-dayo
+2017-08-23 22:31:40,201 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:31:40,201 - root - INFO - files:['DefaultController.py']
+2017-08-23 22:31:40,202 - root - INFO - route[None]
+2017-08-23 22:31:40,202 - root - INFO - route[None]
+[pid: 38590|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 789 bytes} [Wed Aug 23 22:31:40 2017] GET /sdada?sdada=sadasd => generated 125 bytes in 9 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)

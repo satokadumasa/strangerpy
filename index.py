@@ -16,7 +16,7 @@ project_root = os.path.dirname(os.path.abspath(__file__))
 
 sys.path.append(project_root)
 
-import libs.core.Route
+from libs.core.Route import Route
 
 def main():
     # log
@@ -37,11 +37,12 @@ def application(env, start_response):
     r = Route()
     r.getDefaultRoute(project_root + '/app/controllers/')
     route = r.findRoute(url)
-    logger.info("controller[" + route['controller'] + "] action[" + route['action'] + "]")
+
+    logger.info("route[" + str(route) + "]")
 
     start_response('200 OK', [('Content-type', 'text/html')])
-    str = createView('index.tpl')
-    return [str.encode("utf-8")]
+    st = createView('index.tpl')
+    return [st.encode("utf-8")]
 
 def getQuery(env):
     print_char = ""
